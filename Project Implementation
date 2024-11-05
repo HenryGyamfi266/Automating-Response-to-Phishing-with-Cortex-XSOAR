@@ -1,0 +1,45 @@
+**Task1**
+1. In this section, I focused on understanding phishing and exploring how Cortex XSOAR can enhance response capabilities. 
+2. Phishing, a social engineering attack via fraudulent emails, poses significant challenges for current systems, often requiring complex, time-consuming, and error-prone manual processes across multiple tools. 
+3. With Cortex XSOAR, I am able to address these limitations by providing automation and orchestration capabilities that streamline phishing response. 
+4. By integrating various tools and automating actions, it enables faster, more accurate, and efficient handling of phishing incidents.
+
+**Task2**- Investigating Phishing Incidents
+1. First thing I did, was to get access to Cortex XSOAR. On the platform, I go to Incidents at the bottom left on the platform and set the Created range to All times.
+2. Clicked New Incident to create a new incident on the platform. 
+3. After creating incident, I set the workshopscenario to Phishing Campaign and Type to Scenario. Then, clicked Create New Incident.
+4. While waiting for the incident generation, opened any existing incident to view more information about it. 
+5. Then i investigated the phishing incident created by:
+While within Incidents, entered in the search bar the parameter below to filter for incidents that use the Email Phishing playbook.
+# playbook:"Email Phishing"
+6. Then selected the most recent incident to view more information about it.
+Noticed the Status of the incident listed as Active. 
+7. Clicked Case Info tab. Took time to review the case details, timeline, notes, and evidence.
+8. Clicked the Investigation tab. Reviewed the contents of the e-mail, including any associated indicators, and incident files.
+
+**Task3**-Incident War Room & Work Plan
+In this part, I work within XSOAR War Rooms and Work Plans to understand and remediate phishing incidents.
+1. Navigated to the incident's War Room to view a consolidated pane of all the events related to the phishing incident and clicked on the War Room tab
+2. At the bottom of this page, a message stated the execution of the Work Plan has been paused.
+I Clicked Complete in Task pane → Open in Work Plan.
+3. Then, navigated to the incident's Work Plan to view the steps and actions taken to respond to  phishing incident. 
+The Work Plan provided a visual representation of the steps and actions to be taken when responding to specific security incidents or events.
+4. Since I already had investigated the email, clicked Mark Completed.
+5. The Work Plan progressed the task to Assign and involve appropriate personnel. Clicked Mark Completedbecause I didn't need other personnel to help with the incident. 
+6. The Work Plan progressed the task to, Assess severity. Clicked Mark Completed.
+7. The Work Plan progressed the task to, Are the hostnames in the urls being misrepresented? Clicked Mark Completed.
+8. The Work Plan was now marked as completed. I explored the tasks in the Work Plan for additional information and insights
+
+**Task4**- Generate Report
+1. While within the Incident, went to Case Info → Actions → Report.
+2. Set Select a tab to generate report from to Case info. Then, clicked Generate report.
+3. Hovered over the XSOAR logo on the top left, and clicked on Dashboards & Reports. Clicked the Reports tab to download the report to my machine.
+
+In this project, I used Cortex XSOAR to respond to phishing incidents, learned how to generate reports, navigated War Room, and completed Work Plans and playbooks.
+
+
+
+
+
+
+
